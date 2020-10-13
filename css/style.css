@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.srce{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)) ,url(../images/phot.jpg);
+   background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+    height: 100px;
+}
+.middle{
+    margin-top: 150px;
+    margin-bottom: 280px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 25px;
+    font-weight: bold;
+}
+.middle h5{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.middle h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.middle h4{
+    font-size: 40px;
+
+}
+.middle button{
+    border-radius: 50px;
+    border-color: transparent;
+    border: 1px solid yellow;
+    color: white;
+    padding: 10px 30px;
+}
+.about{
+    
+      background-image:url(../images/boob.jpg);
+    
+      background-size: cover;
+      background-position:left;
+      background-repeat: no-repeat;
+      height: 80vh;
+}
+
+.pic img{
+    height: 400px;
+    width: 500px;
+}
+.para h1{
+     font-size: 50px;
+     font-weight: bold;
+     margin-bottom: 30px;
+}
+
+.para p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.to{
+    font-weight: bold;
+    
+}
+.two{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+.pic{
+    display: flex;
+}
+   
+.extra{
+    
+    background: #fff;
+    border: none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.imeg{
+    display: inline-flex;
+}
+.img-fluid{
+    height: 400px;
+    width: 600px;
+}
+footer{
+    height: 330px;
+}
+.icon{
+    align-items: center;
+    justify-content: center;
+}
+.mid{
+    height: 300px;
+}
+
+@media(max-width:767px){
+
+    .about{
+      height: 120vh;
+    }
+    .imeg{
+        display: block;
+    }
+    .para h3{
+        margin-top: 50px;
+    }
+    .pic{
+       display: block;
+    }
+}
+@media(max-width:516px){
+    .about{
+        height: 150vh;
+      }
+      .imeg{
+          display: block;
+      }
+}
+@media(max-width:954px){
+    .middle{
+        margin-top: 250px;
+        margin-bottom: 200px;
+    }
+}
